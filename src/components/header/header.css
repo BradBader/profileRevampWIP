@@ -1,0 +1,43 @@
+.header {
+    display:grid;
+    background-color: black;
+    /* grid-row: auto; */
+    grid-column: 1fr 1fr 1fr 1fr;
+    /* grid-auto-rows: minmax(100, auto); */
+    color: white;
+    margin-bottom: 1em;
+    background-image: url("../../images/collin-armstrong-189527-unsplash.jpg");
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    animation: panning 100s infinite ease-in-out;
+}
+
+@keyframes panning {
+    0% {
+      background-position: 0 0;
+    }
+    25% {
+      background-position: 100% 100%;
+    }
+    50% {
+      background-position: 100% 0;
+    }
+    75% {
+      background-position: 0 100%;
+    }
+    200% {
+      background-position: 0 0;
+    }
+}  
+
+
+.hbox0 {
+    grid-column: 1/4;
+}
+
+
+.hbox1 {
+    grid-column: 4/4;
+    /* grid-row: 1/4; */
+  }
