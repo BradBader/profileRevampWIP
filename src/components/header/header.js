@@ -6,10 +6,20 @@ class Header extends Component {
         return (
             <div className="header">
                 <div className="hbox0">
-                    <h1>It's really just a grid test</h1>
-                </div>
+                    <h3>It's really just a grid & flextest</h3>
+                    <div class="headerWrapper">
 
-                <div className="hbox1"><button>Clicking</button></div>
+                        
+                            <ul>
+                                <li><a href="#">Projects</a></li>
+                                <li><a href="#">About</a></li>
+                                <li><a href="#">Contact</a></li>
+                          
+                            </ul>
+                      
+
+                    </div>
+                </div>
 
             </div >
         )

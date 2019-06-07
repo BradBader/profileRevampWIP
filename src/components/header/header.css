@@ -34,10 +34,25 @@
 
 .hbox0 {
     grid-column: 1/4;
+    /* align-content: center; */
+    /* align-items: center; */
+    text-align: center;
 }
 
 
 .hbox1 {
     grid-column: 4/4;
     /* grid-row: 1/4; */
+  }
+
+
+  h3 {
+    text-shadow: 1px 1px #000000;
+    margin: .5em;
+  }
+
+  .headerWrapper {
+    max-width: 50%;
+    margin: 0 auto;
+    padding: 10px;
   }
