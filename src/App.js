@@ -1,23 +1,31 @@
 import React from 'react';
+import { BrowserRouter as Router, Route, Redirect, Switch } from "react-router-dom";
 import './App.css';
 import Header from "./components/header/header";
 import Footer from "./components/footer/footer"
-import Profile from "./images/imgone.jpg"
+import AboutMe from "./components/aboutme/aboutme"
+import Portfolio from "./components/portfolio/portfolio"
+import Contact from "./components/contact/contact"
 
 function App() {
   return (
-    <div>
-      <Header />
-      {/* <Header2 /> */}
-      <div className="wrapper">
-        <div className="box1">
-          <h2 id="aboutMe">About Me</h2>
-          <img alt="profile photo" id="profileImg" src={Profile} />
-          <p> I'm a coder, attorney, and dad to two children. I work primarily on financial issues as an attorney. I'm competent with front-end and back-end coding. I have included a few select projects on the portfolio page. This site is a WIP. </p>
+    <Router>
+      <div>
+        <Header />
+        {/* <Header2 /> */}
+        <div className="wrapper">
+          <div className="box1">
+            <Switch>
+              <Route exact path="/" component={AboutMe} />
+              <Route exact path="/portfolio" component={Portfolio} />
+              <Route exact path="/contact" component={Contact} />
+            </Switch>
+
+          </div>
         </div>
+        <Footer />
       </div>
-      <Footer />
-    </div>
+    </Router>
 
   );
 }
