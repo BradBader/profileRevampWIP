@@ -1,0 +1,18 @@
+{
+  "files": {
+    "main.css": "/profileRevampWIP/static/css/main.5dba9810.chunk.css",
+    "main.js": "/profileRevampWIP/static/js/main.b6f86d94.chunk.js",
+    "main.js.map": "/profileRevampWIP/static/js/main.b6f86d94.chunk.js.map",
+    "runtime~main.js": "/profileRevampWIP/static/js/runtime~main.f1aefdeb.js",
+    "runtime~main.js.map": "/profileRevampWIP/static/js/runtime~main.f1aefdeb.js.map",
+    "static/js/2.1a53a4ff.chunk.js": "/profileRevampWIP/static/js/2.1a53a4ff.chunk.js",
+    "static/js/2.1a53a4ff.chunk.js.map": "/profileRevampWIP/static/js/2.1a53a4ff.chunk.js.map",
+    "index.html": "/profileRevampWIP/index.html",
+    "precache-manifest.d529c5ce733fd8a0134d789231b86d5d.js": "/profileRevampWIP/precache-manifest.d529c5ce733fd8a0134d789231b86d5d.js",
+    "service-worker.js": "/profileRevampWIP/service-worker.js",
+    "static/css/main.5dba9810.chunk.css.map": "/profileRevampWIP/static/css/main.5dba9810.chunk.css.map",
+    "static/media/header.css": "/profileRevampWIP/static/media/collin-armstrong-189527-unsplash.b3d43b99.jpg",
+    "static/media/imgone.jpg": "/profileRevampWIP/static/media/imgone.cdf4bf82.jpg",
+    "static/media/App.css": "/profileRevampWIP/static/media/sideCoversCrop.712cebe4.jpg"
+  }
+}
