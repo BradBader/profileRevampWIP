@@ -23,6 +23,7 @@
 
 .box1 {
   border: solid 1px grey;
+  display: grid;
 }
 
 .box2 {
@@ -62,9 +63,9 @@ a {
   transition:all 0.5s;
 }
 
-a:hover {
+/* a:hover {
   background:rgba(0,0,0,0.3);
-}
+} */
 
 .wrapper {
   /* max-width: 1000px; */
@@ -107,11 +108,16 @@ ul {
   li {
     flex-basis:100%;
   }
+
+  #llame {
+    float: none;
+  }
   #profileImg {
     float: none;
     display: block;
-    margin-left: 35.1px;
-    margin-right: 35.1px;
+    /* margin-left: 35.1px;
+    margin-right: 35.1px; */
+    justify-self: center;
     display: flex;
     flex-direction: column;
     align-self: center;
@@ -127,7 +133,7 @@ ul {
 #profileImg {
   float: left;
   margin: 0px 1em 0px 0px;
-  border: 1px solid white;
+  border: 1px solid grey;
   align-self: center;
   justify-self: center;
 }
@@ -138,4 +144,8 @@ p {
     align-content: center;
 }
 
+
+img:hover {
+  background:rgba(0,0,0,0.3);
+}
   
