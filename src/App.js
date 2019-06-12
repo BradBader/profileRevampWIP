@@ -17,7 +17,7 @@ function App() {
           <div className="box1">
             <Switch>
               <Route exact path="/" component={AboutMe} />
-              <Route exact path="/portfolio" component={Portfolio} />
+              <Route exact path="/profileRevampWIP/portfolio" component={Portfolio} />
               {/* <Route exact path="/contact" component={Contact} /> */}
             </Switch>
 
